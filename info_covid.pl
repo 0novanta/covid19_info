@@ -8,8 +8,8 @@ use Text::Table;
 use JSON::Parse ':all';
 use DateTime;
 
-my $WEB_PAGE_ALL = "https://corona.lmao.ninja/all"; 
-my $WEB_PAGE_COUNTRIES = "https://corona.lmao.ninja/countries";
+my $WEB_PAGE_ALL = "https://corona.lmao.ninja/v3/covid-19/all"; 
+my $WEB_PAGE_COUNTRIES = "https://corona.lmao.ninja/v3/covid-19/countries";
 my @european_countries = ( "Austria",
 "Belgium",
 "Bulgaria",
